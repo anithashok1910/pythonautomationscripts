@@ -17,7 +17,7 @@ line1 = "File name                 Size \n"
 fout.write(line1)
 # writes the above line in the file through its file object (fout)
 
-files = os.listdir('H:\\backup\\docx')
+files = os.listdir('H:\\backup\\docx') # location of the directory
 # storing the names of all the files in the files variables in the form of list
 # using the os.listdir() function
 
