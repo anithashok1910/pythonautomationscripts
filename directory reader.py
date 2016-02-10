@@ -25,6 +25,7 @@ for file in files:
     # for loop for reading the list's each item and finding each file's size in
     # the directory
     location = os.path.join('H:\\backup\\docx\\',file)
+    # joins both the path and the file name together
     # stores the complete location in the location variable
 
     line = file +"     "+ str(os.path.getsize(location)) + "\n"
