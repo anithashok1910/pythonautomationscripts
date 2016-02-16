@@ -9,7 +9,14 @@ if the files and folders already exists or are moved to the location.
 
 
 INCOMPLETE FILE
-WORK IS YET TO BE DONE FULLY
+WORK IS YET TO BE DONE
+
+first check whether the pdf 's content name is null or not call for function name creater
+ to get a proper name without any problems in the name if it is not null then only check
+ whether the file name contain the term 'sector' in it, if so then only rename it
+
+
+
 """
 
 import os

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82dff6ee-aee6-48cc-a887-9f1a5b2cf6b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/File renamer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/File renamer.py" afterPath="$PROJECT_DIR$/File renamer.py" />
     </list>
     <ignored path="Python Automation Scripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,10 +47,10 @@
       <file leaf-file-name="File renamer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/File renamer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46839547">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.4132901">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
-                <element signature="e#539#548#0" expanded="true" />
+                <element signature="e#798#807#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -537,7 +537,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455471310322</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="File renamer.py is a python script which is used to move the files from one location to another. The name of files that are to be moved from one location to another is specified in a text file called 'Unsupported Files.txt' and the files that are meant to be moved are unsupported pdf files from">
+      <created>1455558757758</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1455558757758</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -582,13 +588,34 @@
     <MESSAGE value="Script file to read all the files of the specified directory and&#10;store it in a text file called &quot;file content.txt&quot; in the current&#10;working directory" />
     <MESSAGE value="Script file which tries to read pdf files and reads its first line if it is readable and stores it in a text file and if it is inaccessible then keeps its record in a  different file." />
     <MESSAGE value="File mover.py is a python script which is used to move the files from one location to another. The name of files that are to be moved from one location to another is specified in a text file called 'Unsupported Files.txt' and the files that are meant to be moved are unsupported pdf files from the yesterday's work.&#10;The program should be executed once only after the successful execution as it will give error if the files and folders already exists or are moved to the location." />
-    <option name="LAST_COMMIT_MESSAGE" value="File mover.py is a python script which is used to move the files from one location to another. The name of files that are to be moved from one location to another is specified in a text file called 'Unsupported Files.txt' and the files that are meant to be moved are unsupported pdf files from the yesterday's work.&#10;The program should be executed once only after the successful execution as it will give error if the files and folders already exists or are moved to the location." />
+    <MESSAGE value="File renamer.py is a python script which is used to move the files from one location to another. The name of files that are to be moved from one location to another is specified in a text file called 'Unsupported Files.txt' and the files that are meant to be moved are unsupported pdf files from" />
+    <option name="LAST_COMMIT_MESSAGE" value="File renamer.py is a python script which is used to move the files from one location to another. The name of files that are to be moved from one location to another is specified in a text file called 'Unsupported Files.txt' and the files that are meant to be moved are unsupported pdf files from" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/File mover.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="15" />
+          <folding>
+            <element signature="e#491#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/File renamer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#798#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/File mover.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -681,10 +708,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/File renamer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46839547">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.4132901">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <element signature="e#539#548#0" expanded="true" />
+            <element signature="e#798#807#0" expanded="true" />
           </folding>
         </state>
       </provider>
