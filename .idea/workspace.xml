@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82dff6ee-aee6-48cc-a887-9f1a5b2cf6b6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Audio fixer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/File renamer.py" afterPath="$PROJECT_DIR$/File renamer.py" />
     </list>
     <ignored path="Python Automation Scripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,25 +32,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="File mover.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/File mover.py">
+      <file leaf-file-name="Audio fixer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Audio fixer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.055105347">
+              <caret line="2" column="77" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="77" />
               <folding>
-                <element signature="e#491#500#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="File renamer.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/File renamer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4132901">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="e#798#807#0" expanded="true" />
+                <element signature="e#205#214#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,6 +74,7 @@
         <option value="$PROJECT_DIR$/PDF fist line reader.py" />
         <option value="$PROJECT_DIR$/File mover.py" />
         <option value="$PROJECT_DIR$/File renamer.py" />
+        <option value="$PROJECT_DIR$/Audio fixer.py" />
       </list>
     </option>
   </component>
@@ -543,7 +532,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455558757758</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated a bit about the working in the description section">
+      <created>1455644530663</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1455644530663</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -589,20 +584,34 @@
     <MESSAGE value="Script file which tries to read pdf files and reads its first line if it is readable and stores it in a text file and if it is inaccessible then keeps its record in a  different file." />
     <MESSAGE value="File mover.py is a python script which is used to move the files from one location to another. The name of files that are to be moved from one location to another is specified in a text file called 'Unsupported Files.txt' and the files that are meant to be moved are unsupported pdf files from the yesterday's work.&#10;The program should be executed once only after the successful execution as it will give error if the files and folders already exists or are moved to the location." />
     <MESSAGE value="File renamer.py is a python script which is used to move the files from one location to another. The name of files that are to be moved from one location to another is specified in a text file called 'Unsupported Files.txt' and the files that are meant to be moved are unsupported pdf files from" />
-    <option name="LAST_COMMIT_MESSAGE" value="File renamer.py is a python script which is used to move the files from one location to another. The name of files that are to be moved from one location to another is specified in a text file called 'Unsupported Files.txt' and the files that are meant to be moved are unsupported pdf files from" />
+    <MESSAGE value="Updated a bit about the working in the description section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated a bit about the working in the description section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/file contents.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directory reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/File mover.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="e#491#500#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,9 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#798#807#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,9 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#491#500#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,24 +657,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file contents.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PDF files list.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/directory reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91237116">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -698,20 +687,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/File mover.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.35818475">
           <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="e#491#500#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/File renamer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4132901">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file contents.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directory reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Audio fixer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.055105347">
+          <caret line="2" column="77" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="77" />
           <folding>
-            <element signature="e#798#807#0" expanded="true" />
+            <element signature="e#205#214#0" expanded="true" />
           </folding>
         </state>
       </provider>
