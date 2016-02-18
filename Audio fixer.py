@@ -52,15 +52,22 @@ def file_mover(audiofilename,albumname):
 
 files = os.listdir('E:\\backup\\mp3')
 for file in files:
-    audio = eyed3.load(file)
-    tag = eyed3.id3.Tag()
-    title = tag.title
-    track_num = tag.track_num
-    album = tag.album
+    try:
+        audio = eyed3.load(file)
+        tag = eyed3.id3.Tag()
+        title = tag.title
+        track_num = tag.track_num
+        album = tag.album
 
-    newfilename = title + " - " + album
-    newfilename = nomenclature(newfilename)
-    newfilename = '.'.join([newfilename,'mp3'])
-    os.rename(file, newfilename)
-    file_mover(newfilename,album)
+        if (title is not None) | (album is not None):
+            newfilename = title + " - " + album
+            newfilename = nomenclature(newfilename)
+            newfilename = '.'.join([newfilename,'mp3'])
+            os.rename(file, newfilename)
+            file_mover(newfilename,album)
 
+        else:
+            shutil.move(file,'E:\\backup\\Unsupported MP3')
+
+    except:
+        print " error found with the file"
