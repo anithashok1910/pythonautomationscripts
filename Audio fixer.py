@@ -71,3 +71,10 @@ for file in files:
 
     except:
         print " error found with the file"
+
+"""
+TO BE DONE YET :
+1.) Issues with redundancy as well as filename length is yet to be done
+2.) Testing
+3.) Documentation
+"""

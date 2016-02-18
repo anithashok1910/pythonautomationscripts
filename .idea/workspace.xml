@@ -36,8 +36,8 @@
       <file leaf-file-name="Audio fixer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Audio fixer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3128039">
-              <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.8622366">
+              <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
               <folding>
                 <element signature="e#0#203#1" expanded="false" />
                 <element signature="e#205#214#0" expanded="true" />
@@ -560,7 +560,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455826947407</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;Testing and documentation left">
+      <created>1455827591683</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1455827591683</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -610,7 +616,8 @@
     <MESSAGE value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names." />
     <MESSAGE value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;phase 2" />
     <MESSAGE value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;phase 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;phase 3" />
+    <MESSAGE value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;Testing and documentation left" />
+    <option name="LAST_COMMIT_MESSAGE" value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;Testing and documentation left" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -753,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Audio fixer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3128039">
-          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.8622366">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
           <folding>
             <element signature="e#0#203#1" expanded="false" />
             <element signature="e#205#214#0" expanded="true" />
