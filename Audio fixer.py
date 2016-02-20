@@ -42,32 +42,41 @@ def file_mover(audiofilename,albumname):
 
     :return: Nothing
     """
-    source = os.path.join('E:\\backup\\mp3\\',audiofilename)#audiofilename should be with .mp3 extension
+    source = os.path.join('E:\\Test\\',audiofilename)#audiofilename should be with .mp3 extension
     destination = os.path.join('E:\\','albumname')
     if os.path.isdir(destination) is True:
         shutil.move(source, destination)
+        print "success"
     else:
         os.makedirs(destination)
         shutil.move(source, destination)
+        print("success")
 
-files = os.listdir('E:\\backup\\mp3')
+files = os.listdir('E:\\Test\\')
+os.chdir('E:\\Test\\')
 for file in files:
     try:
+        print file
         audio = eyed3.load(file)
         tag = eyed3.id3.Tag()
         title = tag.title
         track_num = tag.track_num
         album = tag.album
+        print title
+        print album
 
         if (title is not None) | (album is not None):
             newfilename = title + " - " + album
             newfilename = nomenclature(newfilename)
+            print "Success" + newfilename
             newfilename = '.'.join([newfilename,'mp3'])
+            print"Success" + newfilename
             os.rename(file, newfilename)
+            print "rename success"
             file_mover(newfilename,album)
 
         else:
-            shutil.move(file,'E:\\backup\\Unsupported MP3')
+            shutil.move(file,'E:\\unsupported mp3')
 
     except:
         print " error found with the file"
