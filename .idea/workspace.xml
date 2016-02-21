@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82dff6ee-aee6-48cc-a887-9f1a5b2cf6b6" name="Default" comment="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;TO BE DONE YET :&#10;1.) Issues with redundancy as well as filename length is yet to be done&#10;2.) Testing&#10;3.) Documentation">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio file.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/name corrector.py" />
+    <list default="true" id="82dff6ee-aee6-48cc-a887-9f1a5b2cf6b6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Audio fixer.py" afterPath="$PROJECT_DIR$/Audio fixer.py" />
     </list>
     <ignored path="Python Automation Scripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,32 +31,13 @@
     <favorites_list name="Python Automation Scripts" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Audio fixer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Audio fixer.py">
+    <leaf>
+      <file leaf-file-name="audio file.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/audio file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#203#1" expanded="false" />
-                <element signature="e#205#214#0" expanded="true" />
-                <element signature="e#272#1331#0" expanded="false" />
-                <element signature="e#272#758#1" expanded="false" />
-                <element signature="e#1378#1984#0" expanded="false" />
-                <element signature="e#1378#1618#1" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="name corrector.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/name corrector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.027552674">
-              <caret line="1" column="8" selection-start-line="0" selection-start-column="4" selection-end-line="2" selection-end-column="53" />
-              <folding>
-                <element signature="e#225#254#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.5959253">
+              <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,7 +87,7 @@
     <option name="x" value="-8" />
     <option name="y" value="22" />
     <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -136,8 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,6 +134,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -590,14 +568,20 @@
       <option name="project" value="LOCAL" />
       <updated>1455827992668</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;remove annoying website names from a music file and also if it starts with a number remove it as it causes problems while searching a particular file">
+      <created>1455990253817</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1455990253817</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="22" width="1382" height="726" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -642,7 +626,8 @@
     <MESSAGE value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;phase 3" />
     <MESSAGE value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;Testing and documentation left" />
     <MESSAGE value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;TO BE DONE YET :&#10;1.) Issues with redundancy as well as filename length is yet to be done&#10;2.) Testing&#10;3.) Documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;TO BE DONE YET :&#10;1.) Issues with redundancy as well as filename length is yet to be done&#10;2.) Testing&#10;3.) Documentation" />
+    <MESSAGE value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;remove annoying website names from a music file and also if it starts with a number remove it as it causes problems while searching a particular file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;remove annoying website names from a music file and also if it starts with a number remove it as it causes problems while searching a particular file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -691,6 +676,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -698,9 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="e#225#254#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,9 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="e#225#254#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,16 +858,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audio file.py">
+    <entry file="file://$PROJECT_DIR$/name corrector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5959253">
-          <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.027552674">
+          <caret line="1" column="8" selection-start-line="0" selection-start-column="4" selection-end-line="2" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Audio fixer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.30307943">
           <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
           <folding>
             <element signature="e#0#203#1" expanded="false" />
@@ -900,13 +880,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/name corrector.py">
+    <entry file="file://$PROJECT_DIR$/audio file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.027552674">
-          <caret line="1" column="8" selection-start-line="0" selection-start-column="4" selection-end-line="2" selection-end-column="53" />
-          <folding>
-            <element signature="e#225#254#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.5959253">
+          <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
