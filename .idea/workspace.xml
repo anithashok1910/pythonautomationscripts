@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82dff6ee-aee6-48cc-a887-9f1a5b2cf6b6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf fixer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Python Automation Scripts.iws" />
@@ -31,12 +32,22 @@
     <favorites_list name="Python Automation Scripts" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="audio file.py" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="audio file.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audio file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5959253">
+            <state vertical-scroll-proportion="0.0">
               <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pdf fixer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pdf fixer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.027552674">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -75,6 +86,7 @@
         <option value="$PROJECT_DIR$/Audio fixer.py" />
         <option value="$PROJECT_DIR$/name corrector.py" />
         <option value="$PROJECT_DIR$/audio file.py" />
+        <option value="$PROJECT_DIR$/pdf fixer.py" />
       </list>
     </option>
   </component>
@@ -87,7 +99,7 @@
     <option name="x" value="-8" />
     <option name="y" value="22" />
     <option name="width" value="1382" />
-    <option name="height" value="726" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -134,8 +146,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -574,11 +586,17 @@
       <option name="project" value="LOCAL" />
       <updated>1455990253817</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Audio file.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;">
+      <created>1456075560595</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1456075560595</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1382" height="726" extended-state="6" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -627,7 +645,8 @@
     <MESSAGE value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;Testing and documentation left" />
     <MESSAGE value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;TO BE DONE YET :&#10;1.) Issues with redundancy as well as filename length is yet to be done&#10;2.) Testing&#10;3.) Documentation" />
     <MESSAGE value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;remove annoying website names from a music file and also if it starts with a number remove it as it causes problems while searching a particular file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Audio fixer.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;&#10;remove annoying website names from a music file and also if it starts with a number remove it as it causes problems while searching a particular file" />
+    <MESSAGE value="Audio file.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Audio file.py is a python script file which uses the meta data to rename the audio files and based on their metadata stores them in their individual directories created as per their album names.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -642,13 +661,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/audio file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Audio fixer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#203#1" expanded="false" />
-            <element signature="e#205#214#0" expanded="true" />
+            <element signature="e#205#214#0" expanded="false" />
             <element signature="e#272#1331#0" expanded="false" />
             <element signature="e#272#758#1" expanded="false" />
             <element signature="e#1378#1984#0" expanded="false" />
@@ -663,7 +690,7 @@
           <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
           <folding>
             <element signature="e#0#203#1" expanded="false" />
-            <element signature="e#205#214#0" expanded="true" />
+            <element signature="e#205#214#0" expanded="false" />
             <element signature="e#272#1331#0" expanded="false" />
             <element signature="e#272#758#1" expanded="false" />
             <element signature="e#1378#1984#0" expanded="false" />
@@ -693,7 +720,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#203#1" expanded="false" />
-            <element signature="e#205#214#0" expanded="true" />
+            <element signature="e#205#214#0" expanded="false" />
             <element signature="e#272#1331#0" expanded="false" />
             <element signature="e#272#758#1" expanded="false" />
             <element signature="e#1378#1984#0" expanded="false" />
@@ -715,7 +742,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#203#1" expanded="false" />
-            <element signature="e#205#214#0" expanded="true" />
+            <element signature="e#205#214#0" expanded="false" />
             <element signature="e#272#1331#0" expanded="false" />
             <element signature="e#272#758#1" expanded="false" />
             <element signature="e#1378#1984#0" expanded="false" />
@@ -730,7 +757,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#203#1" expanded="false" />
-            <element signature="e#205#214#0" expanded="true" />
+            <element signature="e#205#214#0" expanded="false" />
             <element signature="e#272#1331#0" expanded="false" />
             <element signature="e#272#758#1" expanded="false" />
             <element signature="e#1378#1984#0" expanded="false" />
@@ -871,7 +898,7 @@
           <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
           <folding>
             <element signature="e#0#203#1" expanded="false" />
-            <element signature="e#205#214#0" expanded="true" />
+            <element signature="e#205#214#0" expanded="false" />
             <element signature="e#272#1331#0" expanded="false" />
             <element signature="e#272#758#1" expanded="false" />
             <element signature="e#1378#1984#0" expanded="false" />
@@ -882,8 +909,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/audio file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5959253">
+        <state vertical-scroll-proportion="0.0">
           <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf fixer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.027552674">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding />
         </state>
       </provider>
